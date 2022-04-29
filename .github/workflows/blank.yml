@@ -38,5 +38,5 @@ jobs:
         uses: appleboy/gitlab-ci-action@master
         with:
           host: "https://gitlab.com/paolofilippelli/meercode-test"
-          token: ${{ secrets.TOKEN }}
-          project_id: 35760261
+          token: "${{ secrets.TOKEN }}"
+          project_id: "35760261"
