@@ -34,3 +34,11 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+      - name: trigger Job
+        uses: appleboy/gitlab-ci-action@master
+        with:
+          url: "https://gitlab.com/paolofilippelli/meercode-test"
+          token: ${{ secrets.TOKEN }}
+          debug: true
+          project_id: 35760261
+          ref: 'v1.0.0'
