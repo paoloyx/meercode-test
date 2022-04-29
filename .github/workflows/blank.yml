@@ -39,6 +39,4 @@ jobs:
         with:
           host: "https://gitlab.com/paolofilippelli/meercode-test"
           token: ${{ secrets.TOKEN }}
-          debug: true
           project_id: 35760261
-          ref: 'master'
