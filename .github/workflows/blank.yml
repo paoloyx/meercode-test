@@ -41,4 +41,4 @@ jobs:
           token: ${{ secrets.TOKEN }}
           debug: true
           project_id: 35760261
-          ref: 'v1.0.0'
+          ref: 'master'
