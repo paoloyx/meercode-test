@@ -37,7 +37,7 @@ jobs:
       - name: trigger Job
         uses: appleboy/gitlab-ci-action@master
         with:
-          url: "https://gitlab.com/paolofilippelli/meercode-test"
+          host: "https://gitlab.com/paolofilippelli/meercode-test"
           token: ${{ secrets.TOKEN }}
           debug: true
           project_id: 35760261
